@@ -10,7 +10,7 @@ pipeline {
 
         stage('Build and Test') {
             steps {
-                sh 'mvn clean install'
+                sh 'mvn clean package'
             }
         }
 
